@@ -43,7 +43,7 @@ int GetInt(){
   }
 }
 
-int main()
+void main()
 {
   printf("This program will return the sum of all integers between two integers (inclusively) as a float.\n");
   printf("N.B. The maximum length of an integer is 10 digits.\n");
@@ -51,7 +51,7 @@ int main()
   printf("Input first integer.\n");
   Int1 = GetInt();
   printf("Input second integer.\n");
-  Int2 = GetInt()+1;
+  Int2 = GetInt();
   if (Int1>Int2) {
     int Swap;
     Swap = Int1;
@@ -59,7 +59,7 @@ int main()
     Int2 = Swap;
   }
   float Total = 0;
-  for (int i = Int1; i < Int2; i++) {
+  for (int i = Int1; i < (Int2+1); i++) {
     Total = Total + i;
   }
   printf("%f\n", Total);
