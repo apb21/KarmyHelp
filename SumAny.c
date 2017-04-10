@@ -62,5 +62,5 @@ void main()
   for (int i = Int1; i < (Int2+1); i++) {
     Total = Total + i;
   }
-  printf("%f\n", Total);
+  printf("%lf\n", Total);
 }

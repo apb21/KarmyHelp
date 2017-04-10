@@ -18,7 +18,7 @@ int end(){
 int failure()
 {
   printf("That was not a valid Integer. Program closing.\n");
-  exit(0);
+  end();
 }
 
 int CheckInt(char *X) {
@@ -83,7 +83,7 @@ void main()
           printf("%d\n",TOTAL);
           LOOPED = 0;
         }
-      }
+      };
       case 2:{
         if (LOOPED == 1) {
           TOTAL=1;
@@ -106,7 +106,7 @@ void main()
           printf("%d\n",TOTAL);
           LOOPED = 0;
         }
-      }
+      };
     }
   }
 }
