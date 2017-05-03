@@ -15,7 +15,7 @@ void main()
 	int seed, seeds;
 	int thisChoice;
 	av=0;
-	//this for loop gives "seeds" different measurements
+	//this for-loop gives "seeds" different measurements
 	seeds = 100;
 	for(seed=0;seed<seeds;seed++){
 		srandom(seed);

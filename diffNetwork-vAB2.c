@@ -62,7 +62,7 @@ void main()
 					case ACWExitNode:
 						if (L[0] == 1){
 							L[0]=clusters;
-						}else{
+						} else {
 							L[0] = L[0]-1;
 						}
 						L[1] = CWExitNode;
